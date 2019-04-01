@@ -613,7 +613,7 @@
     //获取shader里面的变量，这里记得要在glLinkProgram后面，后面，后面！
     GLuint rotate = glGetUniformLocation(self.program, "rotateMatrix");
     
-    float radians = 300 * 3.14159f / 180.0f;
+    float radians = 360 * 3.14159f / 180.0f;
     float s = sin(radians);
     float c = cos(radians);
     
